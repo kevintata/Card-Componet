@@ -12,7 +12,7 @@ body{
 img{
     
     position: relative;
-    top:110px;
+    top:35vw;
     width:300px;
     height:470px;
     border-radius:10px 0 0 10px;
@@ -20,7 +20,7 @@ img{
 #box{
     position: relative;
     padding: 30px;
-    top: 108px;
+    top: 34.8vw;
     width: 250px;
     height: 410px;
     background: hsl(0, 0%, 100%);
@@ -83,7 +83,7 @@ background: hsl(158, 36%, 20%);
 
     img{
         position: relative;
-        top: -50px;
+        top: 40vw;
         left: 180px;
         width: 350px;
         height: 100%;
@@ -91,7 +91,7 @@ background: hsl(158, 36%, 20%);
     }
     #box{
         position: relative;
-        top: 270px;
+        top: 96.5vw;
         left: -170px;
         width: 290px;
         height: 340px;
