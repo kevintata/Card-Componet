@@ -27,7 +27,7 @@ img{
 
 #box{
     position: relative;
-    top: -1.2pt;
+    top: -1.9pt;
     padding: 30px;
     width: 250px;
     height: 410px;
@@ -100,19 +100,21 @@ background: hsl(158, 36%, 20%);
 
 @media screen and (max-width: 650px) {
 
+    main{
+        height: 98vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
     img{
-        position: relative;
-        top: 40vw;
-        left: 180px;
         width: 350px;
         height: 100%;
         border-radius: 10px 10px 0 0;
     }
 
     #box{
-        position: relative;
-        top: 96.5vw;
-        left: -170px;
         width: 290px;
         height: 340px;
         border-radius:0 0 10px 10px ;
@@ -126,11 +128,11 @@ background: hsl(158, 36%, 20%);
     }
 
     p{
-        font-size: 14px;
+    font-size: 14px;
         width: 284px;
     }
 
     #cart{
-        width: 290px;
+        width: 300px;
     }
 }
