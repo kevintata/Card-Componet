@@ -9,41 +9,53 @@ body{
     background: hsl(30, 38%, 92%);
     font-family: 'Montserrat', sans-serif;
 }
+
+main{
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
 img{
-    
     position: relative;
-    top:35vw;
     width:300px;
     height:470px;
     border-radius:10px 0 0 10px;
 }
+
 #box{
     position: relative;
+    top: -1.2pt;
     padding: 30px;
-    top: 34.8vw;
     width: 250px;
     height: 410px;
-    background: hsl(0, 0%, 100%);
+    background: #fff;
     border-radius: 0 10px 10px 0;
 }
+
 #header{
     margin: 0px;
     font-size: 14px;
     letter-spacing:5px;
 }
+
 h1{
-font-family: 'Fraunces', serif;
-font-weight: bold;
-font-size: 35px;
-line-height: 34px;
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 34px;
 }
+
 p{
-font-family: 'Montserrat', sans-serif;
-font-size: 15px;
-color: hsl(228, 12%, 48%);
-line-height: 24px;
-margin-bottom: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: hsl(228, 12%, 48%);
+    line-height: 24px;
+    margin-bottom: 25px;
 }
+
 #price{
     display: inline;
     font-size: 32px;
@@ -51,6 +63,7 @@ margin-bottom: 25px;
     color:hsl(158, 36%, 37%);
     margin-right: 20px;
 }
+
 #pricestrike{
     position: relative;
     bottom: 10px;
@@ -59,6 +72,7 @@ margin-bottom: 25px;
     color: hsl(228, 12%, 48%);
     text-decoration: line-through;
 }
+
 #cart{
     display: flex;
     position: absolute;
@@ -72,13 +86,18 @@ margin-bottom: 25px;
     align-items: center;
     
 }
+
 #cart>span{
     color: #fff;
     font-weight: 700;
 }
+
 #cart:hover{
 background: hsl(158, 36%, 20%);
 }
+
+
+
 @media screen and (max-width: 650px) {
 
     img{
@@ -89,6 +108,7 @@ background: hsl(158, 36%, 20%);
         height: 100%;
         border-radius: 10px 10px 0 0;
     }
+
     #box{
         position: relative;
         top: 96.5vw;
@@ -97,16 +117,19 @@ background: hsl(158, 36%, 20%);
         height: 340px;
         border-radius:0 0 10px 10px ;
     }
+
     h1{
         margin-top: 10px;
         width: 350px;
         height: 60px;
         font-size: 33px;
     }
+
     p{
         font-size: 14px;
         width: 284px;
     }
+
     #cart{
         width: 290px;
     }
